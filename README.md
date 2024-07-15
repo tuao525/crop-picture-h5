@@ -3,14 +3,14 @@
  * @email: 2250467773@qq.com
  * @Date: 2024-01-04 10:53:07
  * @LastEditors: Do not edit
- * @LastEditTime: 2024-01-18 09:37:09
+ * @LastEditTime: 2024-07-15 17:39:16
 -->
 
 # Cropic.js
 
 移动端 h5 头像裁剪工具
 
-此插件是根据微信头像裁剪进行演变，基于[Clipic](https://github.com/teojs/cropic)插件进行修改、更新
+此插件是根据微信头像裁剪进行演变，基于[Clipic](https://github.com/teojs/clipic)插件进行修改、更新
 
 ## npm 方式
 
