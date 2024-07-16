@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuao525/cropic"
+    "url": "git+https://github.com/tuao525/cropic.git"
   },
   "keywords": [
     "image",
