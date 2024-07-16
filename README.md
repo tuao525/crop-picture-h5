@@ -3,7 +3,7 @@
  * @email: 2250467773@qq.com
  * @Date: 2024-01-04 10:53:07
  * @LastEditors: Do not edit
- * @LastEditTime: 2024-07-15 17:59:37
+ * @LastEditTime: 2024-07-16 17:14:24
 -->
 
 # Cropic.js
@@ -11,6 +11,12 @@
 移动端 h5 头像裁剪工具
 
 此插件是根据微信头像裁剪进行演变，基于[Clipic](https://github.com/teojs/clipic)插件进行修改、更新
+
+用手机访问此页面体验：[https://tuao525.github.io/](https://tuao525.github.io/ 'cropic.js')
+
+或者用手机扫此二维码进入
+
+![avatar](./src/assets/qrcode.png)
 
 ## npm 方式
 
@@ -77,7 +83,6 @@ export default () => {
     const cropic = new Cropic()
     const files = event?.target.files
     const reader = new FileReader()
-    console.log('event', event)
     reader.readAsDataURL(files[0])
     reader.onload = (img) => {
       cropic.getImage({

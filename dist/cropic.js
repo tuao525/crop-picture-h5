@@ -208,7 +208,7 @@
             }
             if (img1.bottom <= frame1.bottom) {
               if (_this.scale === 1) {
-                _this.translateY = -(_this.img1.height - frame1.height);
+                _this.translateY = -(_this.img1.height - _this.frame1.clientHeight);
               } else {
                 _this.translateY = -(img1.height - frame1.height - (img1.height - _this.img1.height) / 2);
               }
@@ -222,7 +222,7 @@
             }
             if (img1.right <= frame1.right) {
               if (_this.scale === 1) {
-                _this.translateX = 0;
+                _this.translateX = -(img1.width - _this.frame1.clientHeight);
               } else {
                 _this.translateX = -(img1.width - _this.img1.width) / 2;
               }

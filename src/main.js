@@ -150,7 +150,7 @@ class Cropic {
         }
         if (img1.bottom <= frame1.bottom) {
           if (this.scale === 1) {
-            this.translateY = -(this.img1.height - frame1.height)
+            this.translateY = -(this.img1.height - this.frame1.clientHeight)
           } else {
             this.translateY = -(
               img1.height -
@@ -168,7 +168,7 @@ class Cropic {
         }
         if (img1.right <= frame1.right) {
           if (this.scale === 1) {
-            this.translateX = 0
+            this.translateX = -(img1.width - this.frame1.clientHeight)
           } else {
             this.translateX = -(img1.width - this.img1.width) / 2
           }
