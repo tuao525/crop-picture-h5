@@ -3,7 +3,7 @@
  * @email: 2250467773@qq.com
  * @Date: 2024-01-04 10:53:07
  * @LastEditors: Do not edit
- * @LastEditTime: 2024-07-16 17:58:05
+ * @LastEditTime: 2024-07-17 16:26:45
 -->
 
 # Cropic.js
@@ -12,7 +12,7 @@
 
 此插件是根据微信头像裁剪进行演变，基于[Clipic](https://github.com/teojs/clipic)插件进行修改、更新
 
-用手机访问此页面体验：[https://tuao525.github.io/](https://tuao525.github.io/ 'cropic.js')
+用手机访问此页面体验：[https://tuao525.github.io/cropic/](https://tuao525.github.io/cropic/ 'cropic.js')
 
 或者用手机扫此二维码进入
 
